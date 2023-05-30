@@ -1,57 +1,440 @@
-<!DOCTYPE html>
 
-<html lang="en">
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
 <head>
-  
-  <meta charset="utf-8">
-  <title>gg</title>
-  
-  </head>  
-  
-  <body>
-    
+  <meta charset="utf-8" />
+  <!-- v22969 -->
+
+
+  <title>Omnichannel Widget onboarding guide for Inbox &ndash; Support &amp; Help</title>
+
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="hc:meta:server:XPwMwqneQ6Mhao3u-Szl4hCrPscHxKyjAAma8VmxkFR5bjZD6hT64tIpK1qS0u2filyhfcQ4TWzdBn-SSmC2hg">
+
+  <meta name="description" content="The Omnichannel Widget enables you to communicate with your teams on your homepage, in your app, on live chat or any messaging service —..." /><meta property="og:image" content="https://theme.zdassets.com/theme_assets/522165/78dbcc039c104ca92de746b17b9b65db6c1d3070.svg" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Support &amp; Help" />
+<meta property="og:title" content="Omnichannel Widget onboarding guide for Inbox" />
+<meta property="og:description" content="The Omnichannel Widget enables you to communicate with your teams on your homepage, in your app, on live chat or any messaging service — WhatsApp, Messenger, WeChat, SMS, and more.
+In this guide, y..." />
+<meta property="og:url" content="https://support.messagebird.com/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox" />
+<link rel="canonical" href="https://support.messagebird.com/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox">
+<link rel="alternate" hreflang="en" href="https://support.messagebird.com/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox">
+
+  <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-40a09d8e629dc71fde97e136c5b18d3f.css" media="all" id="stylesheet" />
+    <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+    <link rel="stylesheet" href="//static.zdassets.com/hc/assets/theming_v1_support-e05586b61178dcde2a13a3d323525a18.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="//p17.zdassets.com/hc/theming_assets/522165/18952/style.css?digest=14807629042449">
+
+  <link rel="icon" type="image/x-icon" href="//theme.zdassets.com/theme_assets/522165/45da38c3f696ab54d103390897f8502c0edb073a.png" />
+
+    <script src="//static.zdassets.com/hc/assets/jquery-09d07e20ce042ef10e301661ad1f316c.js"></script>
     <script>
-		var MessageBirdChatWidgetSettings = {
-			widgetId : 'd951a344-b5a0-4ec8-8758-176a4aaa5cfd',
-			initializeOnLoad : true,
-		};
-		!function() {
-			"use strict";
-			if (Boolean(document.getElementById("live-chat-widget-script")))
-				console.error("MessageBirdChatWidget: Snippet loaded twice on page");
-			else {
-				var e, t;
-				window.MessageBirdChatWidget = {},
-						window.MessageBirdChatWidget.queue = [];
-				for (var i = [ "init", "setConfig", "toggleChat", "identify",
-						"hide", "on", "shutdown" ], n = function() {
-					var e = i[d];
-					window.MessageBirdChatWidget[e] = function() {
-						for (var t = arguments.length, i = new Array(t), n = 0; n < t; n++)
-							i[n] = arguments[n];
-						window.MessageBirdChatWidget.queue.push([ [ e, i ] ])
-					}
-				}, d = 0; d < i.length; d++)
-					n();
-				var a = (null === (e = window) || void 0 === e
-						|| null === (t = e.MessageBirdChatWidgetSettings)
-						|| void 0 === t ? void 0 : t.widgetId)
-						|| "", o = function() {
-					var e, t = document.createElement("script");
-							t.type = "text/javascript",
-							t.src = "https://livechat.messagebird.com/bootstrap.js?widgetId="
-									.concat(a), t.async = !0,
-							t.id = "live-chat-widget-script";
-					var i = document.getElementsByTagName("script")[0];
-					null == i || null === (e = i.parentNode) || void 0 === e
-							|| e.insertBefore(t, i)
-				};
-				"complete" === document.readyState ? o()
-						: window.attachEvent ? window.attachEvent("onload", o)
-								: window.addEventListener("load", o, !1)
-			}
-		}();
-	</script>
-  </body>  
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-133860015-8', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+    
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NBNP5L2');</script>
+<!-- End Google Tag Manager -->
+<script>  var MessageBirdChatWidgetSettings = {     widgetId: 'c12dc82c-b5fa-475a-a0f8-6158200e316b',     initializeOnLoad: true,   };  !function(){"use strict";if(Boolean(document.getElementById("live-chat-widget-script")))console.error("MessageBirdChatWidget: Snippet loaded twice on page");else{var e,t;window.MessageBirdChatWidget={},window.MessageBirdChatWidget.queue=[];for(var i=["init","setConfig","toggleChat","identify","hide","on","shutdown"],n=function(){var e=i[d];window.MessageBirdChatWidget[e]=function(){for(var t=arguments.length,i=new Array(t),n=0;n<t;n++)i[n]=arguments[n];window.MessageBirdChatWidget.queue.push([[e,i]])}},d=0;d<i.length;d++)n();var a=(null===(e=window)||void 0===e||null===(t=e.MessageBirdChatWidgetSettings)||void 0===t?void 0:t.widgetId)||"",o=function(){var e,t=document.createElement("script");t.type="text/javascript",t.src="https://livechat.messagebird.com/bootstrap.js?widgetId=".concat(a),t.async=!0,t.id="live-chat-widget-script";var i=document.getElementsByTagName("script")[0];null==i||null===(e=i.parentNode)||void 0===e||e.insertBefore(t,i)};"complete"===document.readyState?o():window.attachEvent?window.attachEvent("onload",o):window.addEventListener("load",o,!1)}}();</script>
+<!-- Article Redirection -->
+<script type= "text/javascript">
+var url = window.location.href;
+//Replace YOURSUBDOMAIN with the location of your help center. For example, "support.company.com"
+if (url.includes("support.messagebird.com/hc/en-us/articles/")) {
+
+	//Replace YOURSUBDOMAIN with the location of your help center. For example, "support.company.com"
+	//This captures the article ID generated by Zendesk Guide
+	var titleId = url.replace('https://support.messagebird.com/hc/en-us/articles/','');
+
+	//Checks for more than just ID number in URL (usually title of article in URL)
+	if (titleId.includes("-")) {
+		var currentId = titleId.substring(0, titleId.indexOf("-"));
+	}
+	//If nothing else, then titleId it is set to currentId variable
+	else {
+		var currentId = titleId;
+	}
+
+	//Initializes an object for external redirects and an object for Guide redirects
+	var redirect = {};
+	var external_redirect = {};
+
+	//Internal Redirect Mapping - From a Zendesk Guide article to another Guide article
+	//Redirect['old article id'] = new article id;
+	//Redirect['1'] = 2;
+	//example:
+	redirect['360001836458'] = 360019700137;
+  redirect['360005380897'] = 360018698958;
+  redirect['360010140037'] = 360019700137;
+  redirect['360006130417'] = 360019911658;
+  redirect['360005858417'] = 360019911658;
+	redirect['360004556017'] = 360019911658;
+  redirect['360004157658'] = 360019958518;
+  redirect['360005989678'] = 360019911658;
+  redirect['360000357777'] = 360019700137;
+  redirect['360003960118'] = 360019911658;
+  redirect['360000357757'] = 360019700137;
+  redirect['360000344098'] = 360019958518;
+  redirect['360000344218'] = 360019958518;
+  redirect['360000344298'] = 360019958518;
+  redirect['360000357977'] = 360019958518;
+  redirect['360000656378'] = 360019911658;
+  redirect['360013018318'] = 360012920877;
+  redirect['360000357717'] = 360019700137;
+  redirect['360012923817'] = 360018698958;
+  redirect['360003460118'] = 360000357877;
+  redirect['360000357797'] = 360019700137;
+  redirect['360001853918'] = 360001853778;
+  redirect['360003976358'] = 360002109957;
+  redirect['360000357817'] = 360019700137;
   
+	
+	//External Redirect Mapping
+	//Send to a new website! Replace developer
+	//example:
+	external_redirect['115004730086'] = "https://developer.mixpanel.com/docs/http";
+	
+	//Replace YOURSUBDOMAIN with the location of your help center. For example, "support.company.com"
+  	//Redirects if needed -> Doesn't redirect if not. 
+  	if (currentId in redirect) {
+    		if (typeof redirect[currentId] !== "undefined") {
+			newUrl = 'https://support.messagebird.com/hc/en-us/articles/' + redirect[currentId];
+			window.location.replace(newUrl);
+		}
+  	}
+
+	else if (currentId in external_redirect) {
+		if (typeof external_redirect[currentId] !== "undefined") {
+			newExternalUrl = external_redirect[currentId];
+			window.location.replace(newExternalUrl);
+		}
+  	}
+}
+</script>  
+<!-- End Article Redirection -->
+  <script type="text/javascript" src="//p17.zdassets.com/hc/theming_assets/522165/18952/script.js?digest=14807629042449"></script>
+</head>
+<body class="">
+  
+  
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBNP5L2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="header">
+  <div class="logo">
+    <a title="Home" href="/hc/en-us">
+      <img src="//theme.zdassets.com/theme_assets/522165/78dbcc039c104ca92de746b17b9b65db6c1d3070.svg" alt="Logo">
+    	<h1 class="logo-title">Help Center</h1>
+    </a>
+  </div>
+  
+  <div>
+   <a class="nav-link" href="https://messagebird.com/en/pricing/support">Support Plans</a>
+  &nbsp;&nbsp;&nbsp; 
+   <a class="nav-link" href="https://status.messagebird.com/">System Status</a>
+  &nbsp;&nbsp;&nbsp;
+   <a class="nav-link" href="https://developers.messagebird.com">Developers</a>
+  &nbsp;&nbsp;&nbsp;
+   <a class="nav-link" href="https://dashboard.messagebird.com">Dashboard</a>
+  &nbsp;&nbsp;&nbsp;
+   <a class="nav-link" href="https://support.messagebird.com/hc/en-us/requests/new">Contact Us</a>
+  &nbsp;&nbsp;&nbsp;
+  </div>
+
+
+  
+</header>
+
+
+  <main role="main">
+    <div class="container-divider"></div>
+<div class="container">
+  <nav class="sub-nav">
+    <ol class="breadcrumbs">
+  
+    <li title="Support &amp; Help">
+      
+        <a href="/hc/en-us">Support &amp; Help</a>
+      
+    </li>
+  
+    <li title="Inbox">
+      
+        <a href="/hc/en-us/categories/360003684978-Inbox">Inbox</a>
+      
+    </li>
+  
+    <li title="Omnichannel Widget for Live Chat">
+      
+        <a href="/hc/en-us/sections/360004550338-Omnichannel-Widget-for-Live-Chat">Omnichannel Widget for Live Chat</a>
+      
+    </li>
+  
+    <li title="Get started with the Omnichannel Widget">
+      
+        <a href="/hc/en-us/sections/360004679517-Get-started-with-the-Omnichannel-Widget">Get started with the Omnichannel Widget</a>
+      
+    </li>
+  
+</ol>
+
+    <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="hidden" name="category" id="category" value="360003684978" autocomplete="off" />
+<input type="search" name="query" id="query" placeholder="Search" aria-label="Search" /></form>
+  </nav>
+
+  <div class="article-container" id="article-container">
+    <section class="article-sidebar">
+      <section class="section-articles collapsible-sidebar">
+        <h3 class="collapsible-sidebar-title sidenav-title">Articles in this section</h3>
+        <ul>
+          
+            <li>
+              <a href="/hc/en-us/articles/360016390378-Inbox-Agent-statuses-in-Live-Chat" class="sidenav-item ">Inbox Agent statuses in Live Chat</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360016390318-Sending-Emojis-in-Live-Chat" class="sidenav-item ">Sending Emojis in Live Chat</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox" class="sidenav-item current-article">Omnichannel Widget onboarding guide for Inbox</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360009428238-How-to-install-channels-on-the-Omnichannel-Widget" class="sidenav-item ">How to install channels on the Omnichannel Widget</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360009428278-Preview-my-Omnichannel-Widget-before-installing-and-enabling" class="sidenav-item ">Preview my Omnichannel Widget before installing and enabling</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360009428358-Display-hide-or-remove-the-Omnichannel-Widget" class="sidenav-item ">Display, hide or remove the Omnichannel Widget</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360011925558-How-to-create-and-manage-multiple-Omnichannel-Widgets-" class="sidenav-item ">How to create and manage multiple Omnichannel Widgets </a>
+            </li>
+          
+        </ul>
+        
+      </section>
+    </section>
+
+    <article class="article">
+      <header class="article-header">
+        <h1 title="Omnichannel Widget onboarding guide for Inbox" class="article-title">
+          Omnichannel Widget onboarding guide for Inbox
+          
+        </h1>
+
+        <div class="article-author">
+          <div class="avatar article-avatar">
+            
+              <span class="icon-agent"></span>
+            
+            <div style="background-image:url(https://support.messagebird.com/system/photos/87315985/lAQ1IPXH.png)" alt="Avatar" class="user-avatar"/>
+          </div>
+          <div class="article-meta">
+          MessageBird
+
+            <ul class="meta-group">
+              
+                <li class="meta-data"><time datetime="2022-12-06T08:18:19Z" title="2022-12-06T08:18:19Z" data-datetime="relative">December 06, 2022 08:18</time></li>
+                <li class="meta-data">Updated</li>
+              
+            </ul>
+          </div>
+        </div>
+        <a class="article-subscribe" title="Opens a sign-in dialog" rel="nofollow" role="button" data-auth-action="signin" aria-selected="false" href="/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox/subscription.html">Follow</a>
+      </header>
+
+      <section class="article-info">
+        <div class="article-content">
+          <div class="article-body"><p>The <strong>Omnichannel Widget</strong> enables you to communicate with your teams on your homepage, in your app, on live chat or any messaging service — WhatsApp, Messenger, WeChat, SMS, and more.</p>
+<p><span style="font-weight: 400;">In this guide, you'll learn how to install the <strong>Omnichannel Widget</strong> on your website.&nbsp;</span></p>
+<p><strong>Step 1</strong></p>
+<p><span style="font-weight: 400;">First things first, install <strong>Live Chat</strong> as an&nbsp;<a href="https://inbox.messagebird.com/manager/channels" target="_self">Inbox Channel</a>&nbsp;and <a href="https://support.messagebird.com/hc/en-us/articles/360009357917" target="_self">configure the Omnichannel Widget</a> to make it your own.&nbsp;</span></p>
+<p><span style="font-weight: 400;"></span><strong>Step 2</strong></p>
+<p><span style="font-weight: 400;">Once you’re happy with your custom Omnichannel Widget configuration, it’s time to <a href="https://inbox.messagebird.com/manager/omnichannel-widget" target="_self">install the Omnichannel Widget code snippet</a> on your website.</span></p>
+<p><strong>Step 3</strong></p>
+<p><span style="font-weight: 400;">To collect your unique Javascript code snippet, click <strong>Add widget to your website</strong> on the top-right of your screen above the widget preview.&nbsp;</span><span style="font-weight: 400;"></span><span style="font-weight: 400;"></span></p>
+<p><span style="font-weight: 400;"><img src="/hc/article_attachments/360008432158/mceclip1.png" alt="mceclip1.png" /></span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Important</strong>: You must add the authorized domains and URLs that the widget will appear on to the Authorized domains section. You can find this in your widget's "General tab" and scrolling to the bottom.</span></p>
+<p class="wysiwyg-text-align-center"><span style="font-weight: 400;"><img src="/hc/article_attachments/11176017371409" alt="Auth_domains.jpg" /></span></p>
+<p><strong>Step 4</strong></p>
+<p><span style="font-weight: 400;">Your unique <strong>Javascript code snippet</strong> will then be displayed in a modal. We’ve prepopulated all your configurations and workspace data so all you need to do is copy-to-clipboard and embed this in your website code.&nbsp;</span></p>
+<p><span style="font-weight: 400;"><img src="/hc/article_attachments/360008353057/mceclip3.png" alt="mceclip3.png" /></span></p>
+<p><strong>Step 5</strong></p>
+<p><span style="font-weight: 400;">Here’s how to embed the Javascript code snippet on your website:</span></p>
+<ol>
+<li><span style="font-weight: 400;">Copy the full Javascript code snippet</span></li>
+<li><span style="font-weight: 400;">Go to the <strong>&lt;body&gt;</strong> section of your website</span></li>
+<li><span style="font-weight: 400;">Paste the full Javascript code snippet as the last line before the closing &lt;/body&gt; tag.</span></li>
+<li><span style="font-weight: 400;">Repeat the process on each page you want the widget to show up.</span></li>
+<li><span style="font-weight: 400;">Deploy your changes and tada! 🎉&nbsp; The <strong>Omnichannel Widget</strong> is now live on your website.&nbsp;</span><span style="font-weight: 400;"></span></li>
+</ol>
+<p><strong>Step 6</strong></p>
+<p><span style="font-weight: 400;">You can now toggle between active and inactive on the top of your <a href="https://inbox.messagebird.com/manager/omnichannel-widget" target="_self">Omnichannel Widget configuration page</a> to either display (active) or hide (inactive) the widget.</span></p>
+<p class="wysiwyg-text-align-center"><img src="/hc/article_attachments/360008867417/Screenshot_2020-06-05_at_11.34.11.png" alt="Screenshot_2020-06-05_at_11.34.11.png" width="594" height="411" /></p>
+<p><span style="font-weight: 400;"><span>And that’s it! 🎉 Now you know how to install the&nbsp;<strong>Omnichannel Widget</strong>&nbsp;on your website.</span></span></p>
+<p class="wysiwyg-text-align-center"><span style="font-weight: 400;"><span><img src="/hc/article_attachments/360008432258/mceclip4.png" alt="mceclip4.png" width="412" height="278" /></span></span></p>
+<p class="wysiwyg-text-align-center"><span style="font-weight: 400;"><span><img style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;" src="/hc/article_attachments/360008466818/image1.png" alt="image1.png" width="260" height="411" /></span></span></p>
+<div></div></div>
+
+          <div class="article-attachments">
+            <ul class="attachments">
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="article-footer">
+          <div class="article-share">
+  <ul class="share">
+    <li><a href="https://www.facebook.com/share.php?title=Omnichannel+Widget+onboarding+guide+for+Inbox&u=https%3A%2F%2Fsupport.messagebird.com%2Fhc%2Fen-us%2Farticles%2F360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox" class="share-facebook">Facebook</a></li>
+    <li><a href="https://twitter.com/share?lang=en&text=Omnichannel+Widget+onboarding+guide+for+Inbox&url=https%3A%2F%2Fsupport.messagebird.com%2Fhc%2Fen-us%2Farticles%2F360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox" class="share-twitter">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=MessageBird&title=Omnichannel+Widget+onboarding+guide+for+Inbox&url=https%3A%2F%2Fsupport.messagebird.com%2Fhc%2Fen-us%2Farticles%2F360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox" class="share-linkedin">LinkedIn</a></li>
+  </ul>
+
+</div>
+        </div>
+        
+          <div class="article-votes">
+            <span class="article-votes-question">Was this article helpful?</span>
+            <div class="article-votes-controls" role='radiogroup'>
+              <a class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="360008737818" data-upvote-count="12" data-vote-count="22" data-vote-sum="2" data-vote-url="/hc/en-us/articles/360008737818/vote" data-value="null" data-label="12 out of 22 found this helpful" data-selected-class="null" aria-selected="false" role="radio" rel="nofollow" title="Yes" href="#"></a>
+              <a class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="360008737818" data-upvote-count="12" data-vote-count="22" data-vote-sum="2" data-vote-url="/hc/en-us/articles/360008737818/vote" data-value="null" data-label="12 out of 22 found this helpful" data-selected-class="null" aria-selected="false" role="radio" rel="nofollow" title="No" href="#"></a>
+            </div>
+            <small class="article-votes-count">
+              <span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="360008737818" data-upvote-count="12" data-vote-count="22" data-vote-sum="2" data-vote-url="/hc/en-us/articles/360008737818/vote" data-value="null" data-label="12 out of 22 found this helpful">12 out of 22 found this helpful</span>
+            </small>
+          </div>
+        
+
+        <div class="article-return-to-top">
+          <a href="#article-container">Return to top<span class="icon-arrow-up"></span></a>
+        </div>
+      </footer>
+
+      <section class="article-relatives">
+        <div data-recent-articles></div>
+        
+  <section class="related-articles">
+    
+      <h3 class="related-articles-title">Related articles</h3>
+    
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCF3aOtJTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBpkMdJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJML2hjL2VuLXVzL2FydGljbGVzLzM2MDAwOTM1NzkxNy1Ib3ctdG8tY3VzdG9taXplLXRoZS1PbW5pY2hhbm5lbC1XaWRnZXQGOwhUOglyYW5raQY%3D--f410a6b11391e966b29f17e39261a0e9ec19fbcb" rel="nofollow">How to customize the Omnichannel Widget</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCA7tO9JTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBpkMdJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJWL2hjL2VuLXVzL2FydGljbGVzLzM2MDAwOTQyODIzOC1Ib3ctdG8taW5zdGFsbC1jaGFubmVscy1vbi10aGUtT21uaWNoYW5uZWwtV2lkZ2V0BjsIVDoJcmFua2kH--09b4bca68def79548c03d84c4e10b96b9fc134ee" rel="nofollow">How to install channels on the Omnichannel Widget</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCCKHUdJTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBpkMdJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJ3L2hjL2VuLXVzL2FydGljbGVzLzM2MDAxMDg0MzkzOC1BZGRpbmctdGhlLU1lc3NhZ2VCaXJkLU9tbmljaGFubmVsLVdpZGdldC10by1hLVdvcmRQcmVzcy1zaXRlLW9yLVdvb0NvbW1lcmNlLXN0b3JlBjsIVDoJcmFua2kI--86cea052cd1fe9d63fb4060f60049714921b9a90" rel="nofollow">Adding the MessageBird Omnichannel Widget to a WordPress site or WooCommerce store</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCDYIYtJTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBpkMdJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJbL2hjL2VuLXVzL2FydGljbGVzLzM2MDAxMTkyNTU1OC1Ib3ctdG8tY3JlYXRlLWFuZC1tYW5hZ2UtbXVsdGlwbGUtT21uaWNoYW5uZWwtV2lkZ2V0cy0GOwhUOglyYW5raQk%3D--e040d4ab605262fef707b56b2e84a91f56ffb982" rel="nofollow">How to create and manage multiple Omnichannel Widgets </a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCHa%2FENJTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBpkMdJTADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI8L2hjL2VuLXVzL2FydGljbGVzLzM2MDAwNjU5ODUxOC1JbmJveC1vbmJvYXJkaW5nLWd1aWRlLQY7CFQ6CXJhbmtpCg%3D%3D--d8831e6f3be5526972f6a3efc0d99aabf7f6d08d" rel="nofollow">Inbox onboarding guide </a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+      </section>
+      
+    </article>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <a title="Home" href="/hc/en-us">Support &amp; Help</a>
+
+    <div class="footer-language-selector">
+      
+        <div class="dropdown language-selector" aria-haspopup="true">
+          <a class="dropdown-toggle">
+            English (US)
+          </a>
+          <span class="dropdown-menu dropdown-menu-end" role="menu">
+            
+              <a href="/hc/change_language/zh-tw?return_to=%2Fhc%2Fzh-tw" dir="ltr" rel="nofollow" role="menuitem">
+                繁體中文
+              </a>
+            
+          </span>
+        </div>
+      
+    </div>
+    <script src="https://xf8120tyqx8n.statuspage.io/embed/script.js"></script>
+
+    <a href="https://www.instagram.com/messagebird/">Instagram</a>
+    <a href="https://www.facebook.com/MessageBirdHQ">Facebook</a>
+    <a href="https://www.linkedin.com/company/messagebird-com/">LinkedIn</a>    
+    <a href="https://messagebird.com">Go to MessageBird.com →</a>
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.87f8d81fa43700c98fe4.js"></script>
+  <script src="https://messagebird.zendesk.com/auth/v2/host/without_iframe.js" data-brand-id="18952" data-return-to="https://support.messagebird.com/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox" data-theme="hc" data-locale="en-us" data-auth-origin="18952,true,true"></script>
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"messagebird","environment":"production","name":"MessageBird"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":"","role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":"hc:hcobject:server:gwMWxq5gGfcyfE0YQ65akjsHg3yGhDafAD-jiS4GdqCmkSxH7aqgtsE_66woUFLvofAcxkV411DdMEbqPddQcg","shared_csrf_token":null},"settings":{},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCBpkMdJTADoKX21ldGF7CzoPYWNjb3VudF9pZGkDtfcHOhNoZWxwX2NlbnRlcl9pZGkEaVTsCzoNYnJhbmRfaWRpAghKOgx1c2VyX2lkMDoTdXNlcl9yb2xlX25hbWVJIg5BTk9OWU1PVVMGOwZUOwBJIgplbi11cwY7BlQ=--6088d22e5fb27d4a97abbcb6f62af37c1bce5d41","url":"https://support.messagebird.com/hc/activity"},"current_record_id":"360008737818","current_record_url":"/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox","current_record_title":"Omnichannel Widget onboarding guide for Inbox","search_results_count":null,"current_text_direction":"ltr","current_brand":{"id":18952,"account_id":522165,"name":"MessageBird","active":true,"deleted_at":null,"created_at":"2014-05-05T08:48:23Z","updated_at":"2023-05-11T13:09:47Z","route_id":408975,"signature_template":"{{agent.signature}}\r\n\r\n[Learn how our Support Plans can make your MessageBird support experience even\r\nbetter!](https://www.messagebird.com/en/pricing/support)"},"current_brand_url":"https://messagebird.zendesk.com","current_host_mapping":"support.messagebird.com","current_path":"/hc/en-us/articles/360008737818-Omnichannel-Widget-onboarding-guide-for-Inbox","authentication_domain":"https://messagebird.zendesk.com","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":true,"mobile_device":false,"mobile_site_enabled":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","manage_content_url":"https://support.messagebird.com/hc/en-us","arrange_content_url":"https://support.messagebird.com/hc/admin/arrange_contents?locale=en-us","general_settings_url":"https://support.messagebird.com/hc/admin/general_settings?locale=en-us","user_segments_url":"https://messagebird.zendesk.com/knowledge/user_segments?brand_id=18952","has_gather":true,"has_ckeditor":false,"has_community_enabled":false,"has_community_badges":false,"has_community_post_content_tagging":false,"has_gather_content_tags":false,"has_guide_content_tags":true,"has_user_segments":true,"has_answer_bot_web_form_enabled":true,"has_edit_user_profile_v2":false,"has_change_password_modal_v2":false,"has_garden_modals":false,"has_suppress_request_email_modal":true,"billing_url":"/access/return_to?return_to=https%3A%2F%2Fmessagebird.zendesk.com%2Fadmin%2Fbilling%2Fsubscription","is_account_owner":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview","is_preview":false,"has_alternate_templates":true,"arrange_articles_url":"https://messagebird.zendesk.com/knowledge/arrange?brand_id=18952","article_verification_url":"https://messagebird.zendesk.com/knowledge/verification?brand_id=18952","has_article_verification":true,"guide_language_settings_url":"https://support.messagebird.com/hc/admin/language_settings?locale=en-us","docs_importer_url":"https://messagebird.zendesk.com/knowledge/import_articles?brand_id=18952","content_tags_url":"https://messagebird.zendesk.com/knowledge/content_tags?brand_id=18952","community_badges_url":"https://messagebird.zendesk.com/knowledge/community_badges?brand_id=18952","community_settings_url":"https://messagebird.zendesk.com/knowledge/community_settings?brand_id=18952","gather_plan_state":"subscribed","search_settings_url":"https://messagebird.zendesk.com/knowledge/search_settings?brand_id=18952","has_multibrand_search_in_plan":true,"theming_api_version":1,"theming_settings":{"brand_color":"rgba(45, 155, 243, 1)","brand_text_color":"#FFFFFF","text_color":"rgba(36, 55, 78, 1)","link_color":"rgba(45, 155, 243, 1)","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"//theme.zdassets.com/theme_assets/522165/78dbcc039c104ca92de746b17b9b65db6c1d3070.svg","favicon":"//theme.zdassets.com/theme_assets/522165/45da38c3f696ab54d103390897f8502c0edb073a.png","homepage_background_image":"//theme.zdassets.com/theme_assets/522165/200417dc31f7f7ec47bcd3312664c075c3468f10.png","community_background_image":"//theme.zdassets.com/theme_assets/522165/ea0fc49e94c74884940bd530924916ea87035a5f.svg","community_image":"//theme.zdassets.com/theme_assets/522165/e58c5e8c3ebf94cbbc4d3669def0adbd7d0ff479.svg"},"has_pci_credit_card_custom_field":true,"current_brand_id":18952,"help_center_restricted":false,"current_brand_active":true,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"has_end_user_apps":true,"has_request_list_custom_fields":true,"has_docs_importer":false,"has_sunco_widget_kill_switch":false,"user_preferred_locale":"en-us","has_end_user_session_renewal":true,"has_reload_page_after_changing_password":true,"has_user_session_cookie_enabled":false,"has_google_analytics_4":true,"version":"v22969"};
+</script>
+
+  <script src="//static.zdassets.com/hc/assets/moment-4ef0d82f9fc65c8a28f659aa3430955f.js"></script>
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-ba0acb5ded013e429262ddd6b7230018.js"></script>
+  
+</body>
 </html>
